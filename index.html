@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Examen de Javascript</title>
+  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="title">Convertidor de divisas</div>
+    <div class="input">
+      <label for="monto">Cantidad:</label>
+      <input type="text" id="monto" placeholder="Ingresa aca el monto del dinero">
+    </div>
+    <div class="input">
+      <label for="de">De:</label>
+      <select name="de" id="de">
+        <option value="BOB">Bolivianos</option>
+        <option value="CLP">Pesos Chilenos</option>
+        <option value="MXN">Pesos Mexicanos</option>
+        <option value="ARS">Pesos argentinos</option>
+        <option value="USD">Dolares</option>
+      </select>
+    </div>
+
+    <div class="buttonContainer">
+      <button id="intercambiar"><i class="fas fa-exchange-alt rotate-90"></i></button>
+    </div>
+    
+    <div class="input">
+      <label for="a">A:</label>
+      <select name="a" id="a">
+        <option value="BOB">Bolivianos</option>
+        <option value="CLP">Pesos Chilenos</option>
+        <option value="MXN">Pesos Mexicanos</option>
+        <option value="ARS">Pesos argentinos</option>
+        <option value="USD">Dolares</option>
+      </select>
+    </div>
+    <div class="buttonContainer">
+      <button id="calcular">Calcular</button>
+    </div>
+    <div class="input">
+      <label for="respuesta">Resultado:</label>
+      <input type="text" id="respuesta">
+    </div>
+  </div>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>
